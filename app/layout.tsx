@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Typebank",
   description: "Typebank is a modern bank for everyone.",
   icons: {
-    icon: '/icons/logo.svg'
+    icon: '/imgs/typebank.webp'
   }
 };
 
