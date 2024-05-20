@@ -1,4 +1,6 @@
 /* eslint-disable no-unused-vars */
+import { Control } from 'react-hook-form';
+import { z } from 'zod';
 
 declare type SearchParamProps = {
   params: { [key: string]: string };
@@ -18,6 +20,8 @@ declare type SignUpParams = {
   ssn: string;
   email: string;
   password: string;
+  accountType: string;
+  contact: string;
 };
 
 declare type LoginUser = {
@@ -39,6 +43,9 @@ declare type User = {
   postalCode: string;
   dateOfBirth: string;
   ssn: string;
+  accountType: string;
+  accountNumber: string;
+  contact: string;
 };
 
 declare type NewUserParams = {
