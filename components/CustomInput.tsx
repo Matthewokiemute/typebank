@@ -11,7 +11,7 @@ interface CustomInputProps {
     placeholder: string,
   }
 
-const CustomInput = ({ control, name, label, placeholder }: CustomInputProps) => {
+const CustomInput = ({ control, name, label, placeholder }: CustomInputProps ) => {
   return (
     <FormField
       control={control}

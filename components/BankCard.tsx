@@ -1,8 +1,9 @@
 import { formatAmount } from '@/lib/utils'
+import { CreditCardProps } from '@/types'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const BankCard = ({ userName, account, showBalance = true }: CreditCardProps) => {
+const BankCard = ({ userName, account, showBalance = true }: CreditCardProps ) => {
   return (
     <div className='flex flex-col'>
         <Link href="/" className="bank-card">
