@@ -9,7 +9,7 @@ const WhyTypeBank = () => {
           <span className="text-green-200 font-medium">Why Typebank?</span>
           <div className="text-center">
             <p className="text-5xl font-medium text-white leading-[60px]">
-              The only fintech app you'll ever need
+              The only fintech app you&apos;ll ever need
             </p>
             <p className="mt-2 font-medium text-gray-7001">
               Our online banking platform is user-friendly and easy to navigate.
